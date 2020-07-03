@@ -1,0 +1,33 @@
+ body{background:url('ours.jpg') no-repeat;
+ background-size:cover;
+ }
+  header{font-family:arial;
+font-weight:bold;}
+header nav ul{list-style:none;
+margin:0px;
+padding:0px;}
+header nav ul li{
+	padding:0px;
+	margin:0px;
+	width:222px;
+	height:40px;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    background-color:rgb(180,150,150);
+	
+}
+header nav ul li a{display:block;}
+header nav ul li a:hover{
+background-color:rgb(120,180,190);
+}
+header nav ul li ul li{display:none;}
+header nav ul li:hover ul li{display:block;transition:3s;}
+td{border:1px solid black;
+height:40px;
+width:200px;
+text-align:center;
+font-weight:bold;
+font-family:arial;}
+table{
+border-collapse:collapse;}
